@@ -1,0 +1,8 @@
+/* BEGIN CAROUSEL */
+.carousel {
+  background-size: cover;
+  background-position: top center;
+  background-clip: content-box;
+  background-repeat: no-repeat;
+}
+/* END CAROUSEL */

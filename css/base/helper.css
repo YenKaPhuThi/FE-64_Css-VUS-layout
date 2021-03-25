@@ -1,0 +1,384 @@
+/* Row & col */
+.row {
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+.row::before {
+  display: table;
+  content: "";
+}
+
+.row::after {
+  display: table;
+  content: " ";
+  clear: both;
+}
+
+.col-2,
+.col-3,
+.col-4,
+.col-6,
+.col-8 {
+  padding-left: 8px;
+  padding-right: 8px;
+  float: left;
+}
+
+.col-2 {
+  width: 16.666667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33333333%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-8 {
+  width: 66.66666667%;
+}
+
+.row.row--no-spacing {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.row.row--no-spacing div[class^="col"] {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.row.row--spacing-2 {
+  margin-left: -2px;
+  margin-right: -2px;
+}
+
+.row.row--spacing-2 div[class^="col"] {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+/* Heading */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 48px;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+h5 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h6 {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* Line height  */
+.line-h-normal {
+  line-height: normal !important;
+}
+
+.line-h-28 {
+  line-height: 28px !important;
+}
+
+/* Display */
+.d-inline-block {
+  display: inline-block;
+}
+
+/* Text Color */
+.text-grey {
+  color: #636363;
+}
+
+.text-black {
+  color: #333;
+}
+
+.text-white {
+  color: #fff;
+}
+
+/* Border */
+.border-primary {
+  border-color: #bb141a;
+}
+
+/* Text transform */
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+
+.text-capitalize {
+  text-transform: capitalize !important;
+}
+
+/* Text alignement */
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+/* Fontsize */
+.fs-16 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.fs-24 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.fs-32 {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.fs-64 {
+  font-size: 64px;
+  line-height: 72px;
+}
+
+/* Font-weight */
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-700 {
+  font-weight: 500;
+}
+
+/* Bacground color */
+.bg-white {
+  background-color: #fff !important;
+}
+
+.bg-blue {
+  background-color: #53b1a71a !important;
+}
+
+/* Margin & Padding */
+.mt-2 {
+  margin-top: 2px !important;
+}
+
+.mt-4 {
+  margin-top: 2px !important;
+}
+
+.mt-6 {
+  margin-top: 6px !important;
+}
+
+.mt-8 {
+  margin-top: 8px !important;
+}
+
+.mt-10 {
+  margin-top: 10px !important;
+}
+
+.mt-12 {
+  margin-top: 10px !important;
+}
+
+.mt-16 {
+  margin-top: 16px !important;
+}
+
+.mt-18 {
+  margin-top: 18px !important;
+}
+
+.mt-20 {
+  margin-top: 20px !important;
+}
+
+.mt-24 {
+  margin-top: 24px !important;
+}
+
+.mt-28 {
+  margin-top: 28px !important;
+}
+
+.mt-32 {
+  margin-top: 32px !important;
+}
+
+.mt-36 {
+  margin-top: 36px !important;
+}
+
+.mt-40 {
+  margin-top: 40px !important;
+}
+
+.mb-20 {
+  margin-bottom: 20px !important;
+}
+
+.mb-28 {
+  margin-bottom: 30px !important;
+}
+
+.ml-10 {
+  margin-left: 10px !important;
+}
+
+.ml-20 {
+  margin-left: 20px !important;
+}
+
+.ml-40 {
+  margin-left: 40px !important;
+}
+
+.mx-40 {
+  margin-left: 40px !important;
+  margin-right: 40px !important;
+}
+
+.my-40 {
+  margin-top: 40px !important;
+  margin-bottom: 40px !important;
+}
+
+.py-10 {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+.py-20 {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+
+.py-40 {
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+}
+
+.py-60 {
+  padding-top: 60px !important;
+  padding-bottom: 60px !important;
+}
+
+.p-10 {
+  padding: 10px !important;
+}
+
+.p-40 {
+  padding: 40px !important;
+}
+
+/* Width & Height */
+.w-100 {
+  width: 100% !important;
+}
+
+/* Section */
+.section + section {
+  padding: 60px 0 0;
+}
+
+/* Float  */
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+/* Clearfix  */
+.clear-left::after,
+.clear-right::after,
+.clear-both::after {
+  content: "";
+  display: table;
+}
+
+.clear-left::after {
+  clear: left;
+}
+
+.clear-right::after {
+  clear: right;
+}
+
+.clear-both::after {
+  clear: both;
+}
+
+/* List with ul li */
+.default-list::after {
+  display: table;
+  content: " ";
+  clear: left;
+}
+
+.default-list .default-list__item {
+  float: left;
+}
+
+.default-list .default-list__item + .default-list__item {
+  margin-left: 12px;
+}
+
+.default-list .default-list__link {
+  color: #636363;
+}

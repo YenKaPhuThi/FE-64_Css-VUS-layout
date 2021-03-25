@@ -1,0 +1,97 @@
+/* BEGIN TEXT COLOR */
+.text-primary {
+  color: #c44b14;
+}
+
+.text-secondary {
+  color: #63636399;
+}
+
+.text-blue {
+  color: rgb(24, 156, 218);
+}
+/* END TEXT COLOR */
+
+/* BEGIN BACKGROUND COLOR */
+.bg-grey {
+  background-color: #63636399;
+}
+
+.bg-blue-dark {
+  background-color: #00ccff8a;
+}
+/* END BACKGROUND COLOR */
+
+/* BEGIN CONTAINER */
+.container {
+  padding: 0 65px;
+}
+/* BEGIN CONTAINER */
+
+/* BEGIN HEADER  */
+.header {
+  position: relative;
+}
+
+.header_logo {
+  position: absolute;
+  top: 20px;
+  left: 80px;
+  z-index: 1;
+}
+/* END HEADER */
+
+/* BEGIN NAVBAR */
+.navbar-list .navbar-list__item {
+  padding: 8px 12px;
+}
+
+.navbar-list .navbar-list__item.active .navbar-list__link {
+  color: #c44b14;
+}
+
+.navbar-list .navbar-list__link {
+  color: rgb(24, 156, 218);
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.navbar-list .navbar-list__link:hover {
+  color: #c44b14;
+}
+/* END NAVBAR */
+
+/* BEGIN CAROUSEL */
+.carousel {
+  background-image: url(./../images/stalwart/23.jpg);
+  height: 650px;
+  position: relative;
+}
+
+.carousel .carousel-desc {
+  max-width: 520px;
+  position: absolute;
+  top: 50%;
+  right: 120px;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+/* END CAROUSEL */
+
+/* BEGIN BENEFIT */
+.benefit .benefit-img {
+  background-image: url(./../images/stalwart/index-serives.jpg);
+  background-size: cover;
+  background-clip: border-box;
+  background-position: center center;
+  height: 300px;
+}
+/* END BENEFIT */
+
+/* BEGIN FOOTER */
+.footer {
+  background-color: #333;
+}
+/* END FOOTER */

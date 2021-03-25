@@ -1,0 +1,135 @@
+/* BEGIN TEXT COLOR */
+.text-primary {
+  color: rgb(172, 255, 6);
+}
+
+.text-secondary {
+  color: #63636399;
+}
+/* END TEXT COLOR */
+
+/* BEGIN BUTTON */
+.btn.btn--primary {
+  color: white;
+  border-color: transparent;
+  background-color: rgb(172, 255, 6);
+}
+
+.btn.btn--primary {
+  box-shadow: 0 0 0 1px rgb(172, 255, 6);
+}
+/* END BUTTON */
+
+/* BEGIN CONTAINER */
+.container {
+  padding: 0 65px;
+}
+/* BEGIN CONTAINER */
+
+/* BEGIN HEADER */
+.header {
+  padding: 28px 0 0;
+}
+/* END HEADER */
+
+/* BEGIN NAVBAR */
+.navbar-list {
+  padding: 0;
+}
+
+.navbar-list .navbar-list__item {
+  padding: 8px 12px;
+}
+
+.navbar-list .navbar-list__item.active .navbar-list__link {
+  color: #c44b14;
+}
+
+.navbar-list .navbar-list__link {
+  color: #333;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.navbar-list .navbar-list__link:hover {
+  color: #c44b14;
+}
+
+.default-list.default-list--social {
+  margin: 8px 30px;
+}
+
+.default-list.default-list--social .default-list__link {
+  color: #333;
+}
+
+.default-list.default-list--contact .default-list__link {
+  color: #63636399;
+}
+/* END NAVBAR */
+
+/* BEGIN CAROUSEL */
+.carousel {
+  background-image: url(./../images/travel/1.jpg);
+  background-position: center center;
+  height: 650px;
+  position: relative;
+}
+
+.carousel .carousel-desc {
+  max-width: 470px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.carousel .carousel-control {
+  margin-top: 120px;
+}
+
+.carousel-control .carousel-control__prev,
+.carousel-control .carousel-control__next {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 50%;
+
+  margin: 0 4px;
+
+  width: 12px;
+  height: 12px;
+}
+
+.carousel-control .carousel-control__prev.active,
+.carousel-control .carousel-control__next.active {
+  background-color: rgb(172, 255, 6);
+}
+/* END CAROUSEL */
+
+/* BEGIN FOOTER */
+.footer .footer-banner {
+  background-image: url(./../images/travel/5.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-clip: content-box;
+  height: 220px;
+}
+
+.footer .footer-copywriter {
+  background-color: #000;
+  padding: 18px 0;
+  text-align: center;
+}
+/* END FOOTER */
+
+/* BEGIN GO TO TOP */
+.move-top {
+  position: fixed;
+  right: 50px;
+  bottom: 20px;
+}
+/* END GO TO TOP */

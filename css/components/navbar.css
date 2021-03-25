@@ -1,0 +1,35 @@
+/* BEGIN NAVBAR */
+.navbar::after {
+  display: table;
+  content: " ";
+  clear: both;
+}
+
+.navbar.navbar--right .navbar-list {
+  float: right;
+}
+
+.navbar.navbar--left .navbar-list {
+  float: left;
+}
+
+.navbar-list {
+  padding: 8px 4px;
+}
+
+.navbar-list .navbar-list__item {
+  cursor: pointer;
+  display: block;
+  padding: 8px;
+
+  float: left;
+
+  position: relative;
+}
+
+.navbar-list .navbar-list__link {
+  color: #636363;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/* END NAVBAR */
