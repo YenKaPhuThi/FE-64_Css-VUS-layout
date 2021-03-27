@@ -1,6 +1,6 @@
 /* BEGIN TEXT COLOR */
 .text-primary {
-  color: #c44b14;
+  color: #dc4312;
 }
 
 .text-secondary {
@@ -8,17 +8,29 @@
 }
 
 .text-blue {
-  color: rgb(24, 156, 218);
+  color: #29cbff;
 }
 /* END TEXT COLOR */
 
+/* BEGIN BUTTON */
+.btn.btn--primary {
+  color: white;
+  border-color: transparent;
+  background-color: #dc4312;
+}
+
+.btn.btn--primary {
+  box-shadow: 0 0 0 1px #dc4312;
+}
+/* END BUTTON */
+
 /* BEGIN BACKGROUND COLOR */
 .bg-grey {
-  background-color: #63636399;
+  background-color: rgb(128 134 137 / 50%);
 }
 
 .bg-blue-dark {
-  background-color: #00ccff8a;
+  background-color: #29c0ff;
 }
 /* END BACKGROUND COLOR */
 
@@ -33,7 +45,7 @@
   position: relative;
 }
 
-.header_logo {
+.header__logo {
   position: absolute;
   top: 20px;
   left: 80px;
@@ -47,23 +59,23 @@
 }
 
 .navbar-list .navbar-list__item.active .navbar-list__link {
-  color: #c44b14;
+  color: #dc4312;
 }
 
 .navbar-list .navbar-list__link {
-  color: rgb(24, 156, 218);
+  color: #29cbff;
   font-weight: 400;
   text-transform: capitalize;
 }
 
 .navbar-list .navbar-list__link:hover {
-  color: #c44b14;
+  color: #dc4312;
 }
 /* END NAVBAR */
 
 /* BEGIN CAROUSEL */
 .carousel {
-  background-image: url(./../images/stalwart/23.jpg);
+  background-image: url("./../images/stalwart/23.jpg");
   height: 650px;
   position: relative;
 }
@@ -82,7 +94,7 @@
 
 /* BEGIN BENEFIT */
 .benefit .benefit-img {
-  background-image: url(./../images/stalwart/index-serives.jpg);
+  background-image: url("./../images/stalwart/index-serives.jpg");
   background-size: cover;
   background-clip: border-box;
   background-position: center center;
@@ -93,5 +105,24 @@
 /* BEGIN FOOTER */
 .footer {
   background-color: #333;
+}
+
+.footer .footer-form {
+  margin-top: 40px;
+}
+
+.footer-form .form__input {
+  border: none;
+  padding: 8px;
+  width: 246px;
+}
+
+.footer-form .form__input + .btn {
+  padding: 6px 8px;
+}
+
+.footer-form .form__input + .btn:focus,
+.footer-form .form__input:focus {
+  outline: none;
 }
 /* END FOOTER */

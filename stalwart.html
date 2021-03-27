@@ -12,15 +12,17 @@
     <link rel="stylesheet" href="./css/stalwart.css" />
   </head>
   <body>
-    <main id="stalwartPage" class="wprapper">
+    <main id="stalwartPage" class="wrapper">
       <header id="header" class="header">
         <div class="container">
-          <a href="#" class="header_logo"
-            ><h1 class="text-primary fw-500">Stalwart</h1>
-            <h5 class="text-uppercase text-white">
-              We help you in your success
-            </h5></a
-          >
+          <div class="header__logo">
+            <h1 class="fw-500">
+              <a href="#" class="text-primary">Stalwart</a>
+            </h1>
+            <h5 class="text-uppercase">
+              <a href="#" class="text-white">We help you in your success</a>
+            </h5>
+          </div>
           <nav class="navbar navbar--right">
             <ul class="navbar-list">
               <li class="navbar-list__item active">
@@ -47,9 +49,11 @@
       </header>
       <section id="carousel" class="carousel section">
         <div class="carousel-desc text-right">
-          <h2 class="d-inline-block text-upppercase fw-400 bg-grey">
-            Business solution
-          </h2>
+          <h1
+            class="d-inline-block text-upppercase fw-400 bg-grey letter-spacing-4"
+          >
+            Business solutions
+          </h1>
           <span class="d-inline-block bg-grey mt-20">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
             laudantium illo
@@ -57,21 +61,19 @@
           <span class="d-inline-block bg-grey mt-10">Lorem ipsum dolor</span>
         </div>
       </section>
-      <section id="aboutUs" class="about-us section bg-blue-dark">
+      <section id="aboutUs" class="about-us section bg-blue-dark py-20">
         <div class="container">
-          <div class="py-20">
-            <h3 class="fw-400 mb-20">About our company</h3>
-            <p class="text-white">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio,
-              quidem at ut blanditiis error aliquid modi consequatur voluptas
-              facere accusantium explicabo autem, et ad hic, fugiat animi
-              laborum. Soluta, delectus. Lorem ipsum dolor, sit amet consectetur
-              adipisicing elit. Asperiores iure mollitia, nisi consequuntur
-              delectus architecto pariatur perspiciatis quibusdam numquam
-              exercitationem eum dolorum ullam quam similique obcaecati iusto
-              dicta quidem. Nam?
-            </p>
-          </div>
+          <h3 class="fw-400 mb-20">About our company</h3>
+          <p class="text-white">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio,
+            quidem at ut blanditiis error aliquid modi consequatur voluptas
+            facere accusantium explicabo autem, et ad hic, fugiat animi laborum.
+            Soluta, delectus. Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Asperiores iure mollitia, nisi consequuntur
+            delectus architecto pariatur perspiciatis quibusdam numquam
+            exercitationem eum dolorum ullam quam similique obcaecati iusto
+            dicta quidem. Nam?
+          </p>
         </div>
       </section>
       <section id="welcome" class="welcome section">
@@ -105,9 +107,9 @@
                 alt="Welcome img"
               />
               <div class="p-10">
-                <h5 class="text-primary mb-20">
+                <h5 class="mb-20">
                   <img src="./images/stalwart/icon2.png" alt="Arrow left img" />
-                  Sed percification
+                  <a href="#" class="text-primary">Sed percification</a>
                 </h5>
                 <p class="text-secondary">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -121,7 +123,7 @@
               <div class="p-10">
                 <h5 class="text-primary mb-20">
                   <img src="./images/stalwart/icon2.png" alt="Arrow left img" />
-                  Sed percification
+                  <a href="#" class="text-primary">Sed percification</a>
                 </h5>
                 <p class="text-secondary">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -266,20 +268,28 @@
             </div>
             <div class="col-3">
               <div class="py-40">
-                <h5 class="text-white">Events</h5>
-                <p><span class="text-secondary">123 Aug</span> Cuciculmn</p>
-                <p><span class="text-secondary">123 Aug</span> Cuciculmn</p>
-                <p><span class="text-secondary">123 Aug</span> Cuciculmn</p>
-                <p><span class="text-secondary">123 Aug</span> Cuciculmn</p>
-                <p><span class="text-secondary">123 Aug</span> Cuciculmn</p>
-                <p><span class="text-secondary">123 Aug</span> Cuciculmn</p>
+                <h5 class="text-white">Get in touch</h5>
+                <p class="text-secondary">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repudiandae nisi excepturi laborum?
+                </p>
+                <div class="footer-form">
+                  <input
+                    type="text"
+                    placeholder="Enter Email"
+                    class="form__input"
+                  />
+                  <button type="button" class="btn btn--primary">Go</button>
+                </div>
               </div>
             </div>
             <div class="col-3">
               <div class="py-40">
-                <h5 class="text-white">Stalwart</h5>
+                <h1 class="fw-400 text-white mt-40">Stalwart</h1>
                 <p class="text-secondary">Lorem, ipsum dolor.</p>
-                <p class="text-secondary">Lorem, ipsum dolor.</p>
+                <p class="text-secondary">
+                  Design by: <span class="text-primary">W3school</span>
+                </p>
               </div>
             </div>
           </div>

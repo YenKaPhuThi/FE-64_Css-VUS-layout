@@ -66,7 +66,7 @@
 
 /* BEGIN CAROUSEL */
 .carousel {
-  background-image: url(./../images/travel/1.jpg);
+  background-image: url("./../images/travel/1.jpg");
   background-position: center center;
   height: 650px;
   position: relative;
@@ -125,7 +125,7 @@
 
 /* BEGIN FOOTER */
 .footer .footer-banner {
-  background-image: url(./../images/travel/5.jpg);
+  background-image: url("./../images/travel/5.jpg");
   background-size: cover;
   background-position: center center;
   background-clip: content-box;
@@ -137,17 +137,17 @@
   margin-top: 40px;
 }
 
-.banner-form .banner__input {
-  border: nones;
+.banner-form .form__input {
+  border: none;
   padding: 10px 8px;
   width: 360px;
 }
 
-.banner-form .banner__input + .btn {
+.banner-form .form__input + .btn {
   padding: 7px 10px;
 }
 
-.banner-form .banner__input:focus {
+.banner-form .form__input:focus {
   outline: none;
 }
 

@@ -119,6 +119,11 @@ h6 {
   display: inline-block;
 }
 
+/* Text spacing */
+.letter-spacing-4 {
+  letter-spacing: 4;
+}
+
 /* Text Color */
 .text-grey {
   color: #636363;
