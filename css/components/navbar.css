@@ -1,5 +1,5 @@
 /* BEGIN NAVBAR */
-.navbar::after {
+.navbar.navbar--right::after {
   display: table;
   content: " ";
   clear: both;
@@ -9,11 +9,13 @@
   float: right;
 }
 
-.navbar.navbar--left .navbar-list {
-  float: left;
+.navbar .navbar-list::after {
+  display: table;
+  content: " ";
+  clear: both;
 }
 
-.navbar-list {
+.navbar .navbar-list {
   padding: 8px 4px;
 }
 
