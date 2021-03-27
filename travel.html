@@ -21,7 +21,7 @@
       <header id="header" class="header clear-right">
         <div class="container">
           <h4 class="d-inline-block text-primary fw-400 mt-18">NJOY</h4>
-          <h1 class="d-inline-block text-uppercase ml-10">Travels</h1>
+          <h2 class="d-inline-block text-uppercase ml-10">Travels</h2>
           <ul class="default-list default-list--contact float-right mt-10">
             <li class="default-list__item">
               <a class="default-list__link" href="tel:+84 163 46 43 124"
@@ -86,9 +86,9 @@
       </nav>
       <section id="carousel" class="carousel section">
         <div class="container">
-          <div class="carousel-desc text-center text-white">
+          <div class="carousel-info text-center text-white">
             <strong class="text-uppercase">Varius</strong>
-            <h2 class="fs-64 text-upppercase mt-20">Your Holiday!</h2>
+            <h1 class="fs-64 text-upppercase mt-20">Your Holiday!</h1>
             <p class="line-h-28 mt-32">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit
               mollitia blanditiis, dolorem impedit, unde voluptatibus sequi,
@@ -132,20 +132,24 @@
               </div>
             </div>
             <div class="col-4">
-              <img
-                src="./images/travel/2.jpg"
-                class="w-100"
-                alt="Welcome img"
-              />
+              <div class="welcome-thumbnail">
+                <img
+                  src="./images/travel/2.jpg"
+                  class="welcome-thumbnail__img"
+                  alt="Welcome img"
+                />
+              </div>
             </div>
           </div>
           <div class="row">
             <div class="col-4">
-              <img
-                src="./images/travel/3.jpg"
-                class="w-100"
-                alt="Welcome img"
-              />
+              <div class="welcome-thumbnail">
+                <img
+                  src="./images/travel/3.jpg"
+                  class="welcome-thumbnail__img"
+                  alt="Welcome img"
+                />
+              </div>
             </div>
             <div class="col-8">
               <div class="py-10">
@@ -265,7 +269,13 @@
           <h2 class="text-uppercase text-center mb-28">News</h2>
           <div class="row">
             <div class="col-4">
-              <img src="./images/travel/4.jpg" class="w-100" alt="News img" />
+              <div class="news-thumbnail">
+                <img
+                  src="./images/travel/4.jpg"
+                  class="news-thumbnail__img"
+                  alt="News img"
+                />
+              </div>
             </div>
             <div class="col-8">
               <div class="py-10">
@@ -291,6 +301,16 @@
         <div class="footer-banner">
           <div class="py-40">
             <h2 class="text-uppercase text-center text-white">Join the club</h2>
+            <div class="banner-form">
+              <input
+                type="text"
+                placeholder="Subscribe"
+                class="banner__input"
+              />
+              <button type="button" class="btn btn--primary">
+                <i class="fa fa-paper-plane"></i>
+              </button>
+            </div>
           </div>
         </div>
         <div class="container">

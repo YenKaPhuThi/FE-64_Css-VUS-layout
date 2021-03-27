@@ -207,7 +207,7 @@ h6 {
 }
 
 .bg-blue {
-  background-color: #53b1a71a !important;
+  background-color: #f0f5f8 !important;
 }
 
 /* Margin & Padding */
@@ -377,8 +377,4 @@ h6 {
 
 .default-list .default-list__item + .default-list__item {
   margin-left: 12px;
-}
-
-.default-list .default-list__link {
-  color: #636363;
 }
