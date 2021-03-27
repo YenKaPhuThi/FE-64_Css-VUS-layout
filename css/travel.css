@@ -1,6 +1,6 @@
 /* BEGIN TEXT COLOR */
 .text-primary {
-  color: rgb(172, 255, 6);
+  color: #82b62d;
 }
 
 .text-secondary {
@@ -12,11 +12,11 @@
 .btn.btn--primary {
   color: white;
   border-color: transparent;
-  background-color: rgb(172, 255, 6);
+  background-color: #82b62d;
 }
 
 .btn.btn--primary {
-  box-shadow: 0 0 0 1px rgb(172, 255, 6);
+  box-shadow: 0 0 0 1px #82b62d;
 }
 /* END BUTTON */
 
@@ -106,7 +106,7 @@
 
 .carousel-control .carousel-control__prev.active,
 .carousel-control .carousel-control__next.active {
-  background-color: rgb(172, 255, 6);
+  background-color: #82b62d;
 }
 /* END CAROUSEL */
 

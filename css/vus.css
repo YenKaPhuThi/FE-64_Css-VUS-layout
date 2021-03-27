@@ -44,12 +44,12 @@
   -moz-transform: translateX(-50%);
   -o-transform: translateX(-50%);
   transform: translateX(-50%);
+  transition: width 0.5s;
 }
 
 .navbar-list .navbar-list__item:hover::after,
 .navbar-list .navbar-list__item.active::after {
   width: 100%;
-  transition: width 0.5s;
 }
 /* END NAVBAR */
 
